@@ -19,28 +19,9 @@ html {
 	text-size-adjust: 100%;
     
     font-size: 100%;
-    font-family: Arial, helvetica, sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+img {
+	width: 100%;
+    display: block;
+}
