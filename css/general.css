@@ -21,9 +21,13 @@ html {
     font-size: 100%;
 }
 
-img {
+
+
+.img {
     margin: .5rem;
-	width: 50%;
+	width: 90%;
+    display: block;
+    box-shadow: #999 5px 5px;
 }
 
 hr {
@@ -33,8 +37,20 @@ hr {
 h1 {
     color: #DF6687; 
     margin: 1rem;
-    font-size: 3rem;
-    text-shadow:#999  5px 5px;
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+figure {
+    margin: 0 auto 1.5rem;
+    width: 90%;
+}
+
+figcaption {
+    font-size: .75rem;
+    color: #DF6687;
+    padding: .2rem 3%;
+    margin: o 0 1.5rem;
 }
 
 h2 {
@@ -43,9 +59,11 @@ h2 {
 }
 
 .logo {
-    width: 14rem
-    overflow: visible;
-    padding: .2rem;
+    overflow: center;
+    width: auto;
+    margin: .2rem auto;
+    margin: .2rem;
+	width: 40%;
 }
 
 
@@ -54,12 +72,6 @@ body {
     padding: .5rem;
     background-color: #EAD3E0;
 }
-
-
-header{
-    overflow: center;
-}
-
 
 blockquote {
     margin: .5rem;
@@ -92,7 +104,7 @@ footer {
 
 footer p {
     font-size: 1rem;
-    margin: 1rem 3% 2rem;
+    margin:.5rem 5% 2rem;
     color: white;
 }
 
