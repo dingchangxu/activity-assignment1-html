@@ -21,8 +21,6 @@ html {
     font-size: 100%;
 }
 
-
-
 .img {
     margin: .5rem;
 	width: 90%;
@@ -50,12 +48,11 @@ figcaption {
     font-size: .75rem;
     color: #DF6687;
     padding: .2rem 3%;
-    margin: o 0 1.5rem;
+    margin: 0 0 1.5rem;
 }
 
 h2 {
     color: #DF6687;
-    background-color:;
 }
 
 .logo {
@@ -65,7 +62,6 @@ h2 {
     margin: .2rem;
 	width: 40%;
 }
-
 
 body {
     margin: .5rem;
@@ -79,7 +75,6 @@ blockquote {
     overflow: hidden;
 }
 
-
 blockquote p:before {
     content:"“";
     font-size:6rem;
@@ -88,14 +83,13 @@ blockquote p:before {
     margin: -5rem 0 0 -2rem;
 }
 
-blockquote /p:after {
+blockquote p:after {
     content:"”";
     font-size: 4rem;
     color: #DF6687;
     margin: 2rem 0 0 2rem;
     float: left;
 }
-
 
 footer {
     background-color: #DF6687;
