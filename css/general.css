@@ -84,11 +84,11 @@ blockquote p:before {
 }
 
 blockquote p:after {
-    content:"”";
-    font-size: 4rem;
+    content:"";
+    font-size: 6rem;
     color: #DF6687;
     margin: 2rem 0 0 2rem;
-    float: left;
+    float: right;
 }
 
 footer {
@@ -106,15 +106,3 @@ footer a {
     color: white;
     text-shadow: #555 2px 2px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
