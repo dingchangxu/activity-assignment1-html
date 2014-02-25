@@ -17,11 +17,98 @@ html {
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 	text-size-adjust: 100%;
-    
+    font-family: sans-serif;
     font-size: 100%;
 }
 
 img {
-	width: 100%;
-    display: block;
+    margin: .5rem;
+	width: 50%;
 }
+
+hr {
+   border: solid 2px #DF6687;
+}
+
+h1 {
+    color: #DF6687; 
+    margin: 1rem;
+    font-size: 3rem;
+    text-shadow:#999  5px 5px;
+}
+
+h2 {
+    color: #DF6687;
+    background-color:;
+}
+
+.logo {
+    width: 14rem
+    overflow: visible;
+    padding: .2rem;
+}
+
+
+body {
+    margin: .5rem;
+    padding: .5rem;
+    background-color: #EAD3E0;
+}
+
+
+header{
+    overflow: center;
+}
+
+
+blockquote {
+    margin: .5rem;
+    padding: 1rem 0 0 10%;
+    overflow: hidden;
+}
+
+
+blockquote p:before {
+    content:"“";
+    font-size:6rem;
+    color: #DF6687;
+    float: left;
+    margin: -5rem 0 0 -2rem;
+}
+
+blockquote /p:after {
+    content:"”";
+    font-size: 4rem;
+    color: #DF6687;
+    margin: 2rem 0 0 2rem;
+    float: left;
+}
+
+
+footer {
+    background-color: #DF6687;
+    overflow: hidden;
+}
+
+footer p {
+    font-size: 1rem;
+    margin: 1rem 3% 2rem;
+    color: white;
+}
+
+footer a {
+    color: white;
+    text-shadow: #555 2px 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
