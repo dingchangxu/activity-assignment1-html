@@ -77,17 +77,17 @@ blockquote {
 
 blockquote p:before {
     content:"“";
-    font-size:6rem;
+    font-size: 6rem;
     color: #DF6687;
     float: left;
     margin: -5rem 0 0 -2rem;
 }
 
 blockquote p:after {
-    content:"";
+    content:"”";
     font-size: 6rem;
     color: #DF6687;
-    margin: 2rem 0 0 2rem;
+    margin: -1rem 0 0 2rem;
     float: right;
 }
 
