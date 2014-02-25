@@ -56,21 +56,19 @@ h2 {
 }
 
 .logo {
-    overflow: center;
-    width: auto;
-    margin: .2rem auto;
-    margin: .2rem;
+    overflow:inherit;
+    padding: 1rem;
 	width: 40%;
 }
 
 body {
     margin: .5rem;
-    padding: .5rem;
+    padding: 1rem;
     background-color: #EAD3E0;
 }
 
 blockquote {
-    margin: .5rem;
+    margin: .1rem;
     padding: 1rem 0 0 10%;
     overflow: hidden;
 }
